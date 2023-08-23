@@ -1,0 +1,239 @@
+/* Style the body */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+header img {
+    height: 100px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #7030a0;
+    padding: 10px;
+}
+p {
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #c65911; 
+    padding: 10px;
+}
+/* Style the table */
+table {
+    width: 90%;
+    max-width: 900px;
+    font-size: 1em;
+    margin: 0 auto;
+    background-color: rgb(65, 65, 65);
+    border-collapse: collapse;
+}
+
+/* Style the table header */
+th {
+    background-color: rgb(109, 106, 114);
+    color: white;
+    border-color: white;
+    /* border: 1px solid rgb(159, 190, 159); */
+    padding: 6px 5px 2px 5px;
+    border-radius: 0px;
+    height: auto;
+}
+
+/* Style the table data */
+td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: black;
+}
+table tr {
+    background-color: white;
+}
+table tr:nth-child(odd) {
+    background-color: lightgrey;;
+}
+table tr:hover, table tr:hover td, table tr:hover th {
+    background-color: rgb(198, 89, 17); /* Change to your desired color */
+    color: rgb(255, 255, 255);    
+}
+#name {
+    text-align: left;
+    padding-left: 10px;
+}
+.nameClass {
+    text-align: left;
+    padding-left: 5px;
+}
+.leaderboard-icon {
+    width: 20px; /* adjust as necessary */
+    padding-right: 7px;
+    vertical-align: middle;
+}
+#rank {
+    width: 10%;
+}
+#name {
+    width: 45%;
+}
+#points {
+    width: 15%;
+}
+#cashes {
+    width: 15%;
+}
+#points-behind {
+    width: 15%;
+}
+
+/* Style the refresh button */
+button {
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: purple;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add a hover effect to the refresh button */
+button:hover {
+    background-color: rgb(95, 95, 95); 
+}
+
+@media only screen and (max-width: 768px) {
+/* Style the body */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin: 20px 0px;
+}
+header img {
+    height: 100px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #7030a0;
+    padding: 10px;
+}
+p {
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #c65911; 
+    padding: 10px;
+}
+/* Style the table */
+table {
+    width: 90%;
+    font-size: 0.75em;
+    margin: 0 auto;
+    background-color: rgb(65, 65, 65);
+    border-collapse: collapse;
+    /* border-radius: 5px; */
+}
+
+/* Style the table header */
+th {
+    background-color: rgb(109, 106, 114);
+    color: white;
+    border-color: white;
+    /* border: 1px solid rgb(159, 190, 159); */
+    padding: 6px 5px 2px 5px;
+    border-radius: 0px;
+    height: auto;
+}
+
+/* Style the table data */
+td {
+    border: 1px solid rgb(255, 255, 255);
+    vertical-align: middle;
+    /* padding: 5px; */
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+table tr {
+    background-color: white;
+}
+table tr:nth-child(odd) {
+    background-color: lightgrey;;
+}
+table tr:hover {
+    background-color: #c65911; /* Change to your desired color */
+    color: white;
+}
+#name {
+    text-align: left;
+    padding-left: 10px;
+}
+.nameClass {
+    text-align: left;
+    padding-left: 5px;
+}
+.leaderboard-icon {
+    width: 15px; /* adjust as necessary */
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#rank {
+    width: 10%;
+}
+#name {
+    width: 50%;
+}
+#points {
+    width: 15%;
+}
+#cashes {
+    width: 10%;
+}
+#points-behind {
+    width: 15%;
+}
+
+/* Style the refresh button */
+button {
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: purple;
+    color: white;
+    border: none;
+    font-size: 0.75em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add a hover effect to the refresh button */
+button:hover {
+    background-color: rgb(95, 95, 95);
+}
+}
